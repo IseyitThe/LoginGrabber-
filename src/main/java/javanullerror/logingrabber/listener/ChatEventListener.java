@@ -10,8 +10,8 @@ public class ChatEventListener implements Listener {
     public void onChatEvent(net.md_5.bungee.api.event.ChatEvent event) {
         ProxiedPlayer player = (ProxiedPlayer) event.getSender();
         String command = event.getMessage().toLowerCase();
-        if (command.startsWith("/login")) {
-            System.out.println(player + " adli oyuncu " + command + " komutunu kullandi");
+        if (command.startsWith("/")) {
+            System.out.println("[LoginGrabber]: The player" + player + " used " + command + " command");
         }
     }
 }
