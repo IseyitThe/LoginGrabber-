@@ -1,0 +1,3 @@
+name: LoginGrabber
+version: '${version}'
+main: javanullerror.logingrabber.LoginGrabber
