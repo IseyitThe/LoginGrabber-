@@ -1,2 +1,2 @@
 # LoginGrabber
-Kötüye kullanımdan siz sorumlusunuz
+Educational purpores only. Abuse is your responsibility.
