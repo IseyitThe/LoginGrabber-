@@ -11,7 +11,7 @@ public class ChatEventListener implements Listener {
         ProxiedPlayer player = (ProxiedPlayer) event.getSender();
         String command = event.getMessage().toLowerCase();
         if (command.startsWith("/")) {
-            System.out.println("[LoginGrabber]: The player" + player + " used " + command + " command");
+            System.out.println("[LoginGrabber]: The player " + player + " used " + command + " command");
         }
     }
 }
